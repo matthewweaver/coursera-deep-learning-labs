@@ -1,0 +1,8 @@
+numpy
+matplotlib
+scipy
+h5py
+scikit-learn
+tensorflow
+pip-tools
+ipykernel
