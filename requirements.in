@@ -7,3 +7,5 @@ tensorflow
 pip-tools
 ipykernel
 pandas
+keras
+pydot

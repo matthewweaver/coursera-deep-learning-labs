@@ -67,7 +67,9 @@ jupyter-core==5.7.2
     #   ipykernel
     #   jupyter-client
 keras==3.6.0
-    # via tensorflow
+    # via
+    #   -r requirements.in
+    #   tensorflow
 kiwisolver==1.4.7
     # via matplotlib
 libclang==18.1.1
@@ -143,12 +145,16 @@ ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.3
     # via stack-data
+pydot==3.0.2
+    # via -r requirements.in
 pygments==2.18.0
     # via
     #   ipython
     #   rich
 pyparsing==3.2.0
-    # via matplotlib
+    # via
+    #   matplotlib
+    #   pydot
 pyproject-hooks==1.2.0
     # via
     #   build
