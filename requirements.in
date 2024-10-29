@@ -3,9 +3,8 @@ matplotlib
 scipy
 h5py
 scikit-learn
-tensorflow
-pip-tools
+tensorflow==2.4.0
 ipykernel
 pandas
-keras
+keras==2.4.0
 pydot
