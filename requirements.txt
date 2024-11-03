@@ -50,6 +50,8 @@ h5py==2.10.0
     #   tensorflow
 idna==3.10
     # via requests
+imageio==2.31.2
+    # via -r requirements.in
 importlib-metadata==6.7.0
     # via markdown
 ipykernel==6.16.2
@@ -92,6 +94,7 @@ numpy==1.21.6
     # via
     #   -r requirements.in
     #   h5py
+    #   imageio
     #   keras-preprocessing
     #   matplotlib
     #   opt-einsum
@@ -118,7 +121,9 @@ pexpect==4.9.0
 pickleshare==0.7.5
     # via ipython
 pillow==9.5.0
-    # via matplotlib
+    # via
+    #   imageio
+    #   matplotlib
 prompt-toolkit==3.0.48
     # via ipython
 protobuf==3.19.6

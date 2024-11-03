@@ -8,3 +8,4 @@ ipykernel
 pandas
 keras==2.9.0
 pydot
+imageio
