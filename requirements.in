@@ -3,9 +3,12 @@ matplotlib
 scipy
 h5py
 scikit-learn
-tensorflow==2.9.1
+tensorflow==2.6.0
 ipykernel
 pandas
-keras==2.9.0
+keras==2.6.0
 pydot
 imageio
+music21==6.5.0
+mido
+pydub
