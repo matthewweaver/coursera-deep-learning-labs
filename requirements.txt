@@ -28,7 +28,7 @@ debugpy==1.7.0
     # via ipykernel
 decorator==5.1.1
     # via ipython
-emoji==2.14.0
+emoji==1.7.0
     # via -r requirements.in
 entrypoints==0.4
     # via jupyter-client
@@ -226,9 +226,9 @@ traitlets==5.9.0
     #   jupyter-client
     #   jupyter-core
     #   matplotlib-inline
-typing-extensions==4.7.1
+typing-extensions==3.7.4
     # via
-    #   emoji
+    #   -r requirements.in
     #   importlib-metadata
     #   kiwisolver
     #   tensorflow
