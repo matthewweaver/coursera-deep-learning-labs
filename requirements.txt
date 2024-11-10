@@ -10,6 +10,8 @@ absl-py==2.1.0
     #   tensorflow
 astunparse==1.6.3
     # via tensorflow
+babel==2.14.0
+    # via -r requirements.in
 backcall==0.2.0
     # via ipython
 cached-property==1.5.2
@@ -32,6 +34,8 @@ emoji==1.7.0
     # via -r requirements.in
 entrypoints==0.4
     # via jupyter-client
+faker==18.13.0
+    # via -r requirements.in
 flatbuffers==1.12
     # via tensorflow
 fonttools==4.38.0
@@ -169,11 +173,14 @@ pyparsing==3.1.4
     #   pydot
 python-dateutil==2.9.0.post0
     # via
+    #   faker
     #   jupyter-client
     #   matplotlib
     #   pandas
 pytz==2024.2
-    # via pandas
+    # via
+    #   babel
+    #   pandas
 pyzmq==26.2.0
     # via
     #   ipykernel
@@ -228,9 +235,9 @@ traitlets==5.9.0
     #   jupyter-client
     #   jupyter-core
     #   matplotlib-inline
-typing-extensions==3.7.4
+typing-extensions==4.7.1
     # via
-    #   -r requirements.in
+    #   faker
     #   importlib-metadata
     #   kiwisolver
     #   tensorflow

@@ -13,5 +13,6 @@ music21==6.5.0
 mido
 pydub
 emoji==1.7.0
-typing_extensions==3.7.4
 tqdm
+faker
+babel
