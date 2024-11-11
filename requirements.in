@@ -16,3 +16,4 @@ emoji==1.7.0
 tqdm
 faker
 babel
+transformers
